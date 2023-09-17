@@ -1,9 +1,11 @@
-
-// import './App.css';
+import ironhackersImg from "../assets/ironhackers.avif"
 
 function HomePage() {
     return (
-        <h1> Home Page </h1>
+        <>
+            <h1> Home Page </h1>
+            <img src={ironhackersImg} />
+        </>
     );
 }
 

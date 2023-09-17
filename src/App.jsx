@@ -1,7 +1,6 @@
-import ironhackersImg from "./assets/ironhackers.avif"
 import './App.css';
 import { Routes, Route } from "react-router-dom";
-import axios from 'axios'; // Continue here
+import axios from 'axios';
 
 import HomePage from "./pages/HomePage";
 import ApartmentsList from "./pages/ApartmentsList";
